@@ -1,0 +1,78 @@
+{
+  "$schema": "https://leo1oel.github.io/lattice-plugins/schema/theme-1.json",
+  "schema": 1,
+  "id": "io.github.leo1oel.harbor",
+  "name": "Harbor",
+  "version": "1.0.0",
+  "author": "leo1oel",
+  "license": "MIT",
+  "description": "A calm blue-grey example theme that seeds the Lattice theme registry.",
+  "variants": [
+    {
+      "id": "day",
+      "name": "Harbor Day",
+      "appearance": "light",
+      "colors": {
+        "window": "#f4f6f8",
+        "chrome": "#e9edf1",
+        "panel": "#fbfcfd",
+        "raised": "#ffffff",
+        "input": "#ffffff",
+        "editor": "#fbfcfd",
+        "pdf-ground": "#e9edf1",
+        "text": "#1f2a37",
+        "text-secondary": "#4b5b6b",
+        "line": "#1f2a3717",
+        "line-strong": "#1f2a3726",
+        "accent": "#1f6f8b",
+        "focus": "#1f6f8b",
+        "selection": "#1f6f8b",
+        "danger": "#b42318",
+        "success": "#2e7d32",
+        "warning": "#a15c07",
+        "info": "#1f6f8b",
+        "annotation": "#b54708"
+      },
+      "syntax": {
+        "keyword": "#1f6f8b",
+        "comment": "#5f6f7f",
+        "string": "#2e7d32",
+        "number": "#8a4baf",
+        "function": "#245a9c"
+      }
+    },
+    {
+      "id": "night",
+      "name": "Harbor Night",
+      "appearance": "dark",
+      "colors": {
+        "window": "#11161c",
+        "chrome": "#161d24",
+        "panel": "#1b232c",
+        "raised": "#222b35",
+        "input": "#1b232c",
+        "editor": "#161d24",
+        "pdf-ground": "#0d1217",
+        "text": "#e3e8ee",
+        "text-secondary": "#a3afbc",
+        "line": "#e3e8ee1a",
+        "line-strong": "#e3e8ee29",
+        "accent": "#5fb3cf",
+        "focus": "#5fb3cf",
+        "selection": "#5fb3cf",
+        "danger": "#f0716a",
+        "success": "#6cc77a",
+        "warning": "#e6a948",
+        "info": "#5fb3cf",
+        "annotation": "#f19a5b"
+      },
+      "syntax": {
+        "keyword": "#5fb3cf",
+        "comment": "#8593a3",
+        "string": "#8fd19e",
+        "number": "#c8a2e8",
+        "function": "#7fb2f0"
+      }
+    }
+  ]
+}
